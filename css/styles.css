@@ -1,3 +1,90 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: black;
+  --effect-color: #2196f3;
+  --dark-background-color: #2f303a;
+  --primary-white-color: white;
+}
+
+/* backgrounds colors */
 body {
-  background-color: aquamarine;
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+.section .team {
+  background-color: #e5e5e5;
+}
+.hero,
+footer {
+  background-color: var(--dark-background-color);
+}
+
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* site nav styles */
+
+header {
+  background-color: #fff;
+}
+.logo-web {
+  color: var(--effect-color);
+}
+.logo-studio {
+  color: #212121;
+}
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--effect-color);
+}
+
+.site-nav .link.current {
+  color: var(--effect-color);
+}
+
+.contacts a {
+  color: #757575;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--effect-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* style for footer  */
+
+footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer address {
+  color: var(--primary-white-color);
+}
+footer .logo-studio {
+  color: var(--primary-white-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--effect-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
 }
