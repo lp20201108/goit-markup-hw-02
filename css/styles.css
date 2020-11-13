@@ -10,6 +10,11 @@
 body {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .section .team {
   background-color: #e5e5e5;
@@ -19,6 +24,7 @@ footer {
   background-color: var(--dark-background-color);
 }
 
+/* lists */
 .list {
   list-style: none;
 }
@@ -26,16 +32,27 @@ a {
   text-decoration: none;
 }
 
-/* site nav styles */
-
-header {
-  background-color: #fff;
-}
+/* logo style */
 .logo-web {
   color: var(--effect-color);
 }
 .logo-studio {
   color: #212121;
+}
+
+.logotip {
+font-family: Raleway, sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+}
+
+/* site nav styles */
+
+header {
+  background-color: #fff;
 }
 .site-nav a {
   color: #212121;
@@ -57,12 +74,27 @@ header {
   color: var(--effect-color);
 }
 
+/* titles */
+
 .hero-title {
-  color: var(--primary-white-color);
+color: var(--primary-white-color);
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
 }
+
 .section-title {
   color: var(--title-text-color);
 }
+
 
 /* style for footer  */
 
@@ -78,10 +110,13 @@ footer .logo-studio {
 }
 
 /* buttons */
+
 .button {
   font-weight: bold;
   font-size: 16px;
   line-height: 26px;
+  font-family: inherit;
+  letter-spacing: 0.03em;
 }
 
 .button.primary{
@@ -94,21 +129,24 @@ footer .logo-studio {
   color: var(--title-text-color);
 }
 
-  /* background-color: #f5f4fa;
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px; */
-}
-
-.button.primary:hover,
+ .button.primary:hover,
 .button.primary:focus {
   color:  background-color: #F5F4FA;
   color: var(--title-text-color);
 }
 
 .button.secundary:hover,
-.button.primary:focus {
-   background-color: var(--effect-color);
+.button.secundary:focus {
+  background-color: var(--effect-color);
   color: var(--primary-white-color);
 }
+
+/* buttons that contain call to action - order, submit, send */
+.button.call{
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
