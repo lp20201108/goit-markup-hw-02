@@ -14,14 +14,16 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
+  }
   .team {
   background-color: #e5e5e5;
-}
-.hero,
-footer {
-  background-color: var(--dark-background-color);
-}
+   }
+   .hero,
+    footer {
+   background-color: var(--dark-background-color);
+  }
+
+
 
 /* lists */
 .list {
@@ -31,6 +33,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+
 
 /* logo style */
 
@@ -49,7 +53,9 @@ line-height: 1.2;
 }
 
 
-/* site nav styles */
+
+
+/* site nav style */
 
 header {
   background-color: #fff;
@@ -73,6 +79,8 @@ header {
 .contacts a:focus {
   color: var(--effect-color);
 }
+
+
 
 /* titles */
 
@@ -108,6 +116,9 @@ text-transform: uppercase;
 }
 
 
+
+
+
 /* style for footer  */
 
 footer a {
@@ -120,6 +131,9 @@ footer address {
 footer .logo-studio {
   color: var(--primary-white-color);
 }
+
+
+
 
 /* buttons */
 
@@ -165,6 +179,9 @@ letter-spacing: 0.06em;
 .filters .button {
   font-weight: 500;
 }
+
+
+
 
 /* team section */
 
