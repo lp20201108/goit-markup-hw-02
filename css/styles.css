@@ -176,7 +176,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
-.filters .button {
+.filters >.button {
   font-weight: 500;
 }
 
