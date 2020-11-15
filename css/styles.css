@@ -64,6 +64,7 @@ header {
   color: #212121;
   font-weight: 500;
 }
+
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--effect-color);
