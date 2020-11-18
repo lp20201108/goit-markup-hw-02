@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>www.webstudio.ua</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- fonts roboto&raleway -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-
+        <!-- Normolize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">  
+    <!-- style CSS -->
     <link rel="stylesheet" href="css/styles.css">
    </head> 
 <body>
@@ -34,7 +37,7 @@
     <button class="button primary call" type="button">Заказать услугу</button>
 </section>
 <!-- наши приоритеты -->
-<section class="section">
+<section class=" priority section">
     <h2 class="section-title">наши приоритеты</h2>
     <ul class="company-values list">
         <li>
@@ -110,11 +113,15 @@
 <!--footer-->
     <footer>
     <a class="logotip" href="index.html"> <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-    <ul class="contacts-footer list">
-        <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
+   
+    <address class="address">
+            <ul class="contacts-footer list">
+         <li>г. Киев, пр-т Леси Украинки, 26</li>
         <li><a href="mailto:info@devstudio.com" aria-label="email">info@devstudio.com </a></li>
         <li><a href="tel:+380961111111" aria-label="phone">+38 096 111 11 11 </a></li>
     </ul>
+</address>
   </footer>
 </body>
 </html>
+
