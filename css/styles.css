@@ -1,3 +1,14 @@
+html{
+  box-sizing: border-box;
+}
+
+*
+*::before;
+*::after;{
+  box-sizing: inherit;
+}
+
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: black;
@@ -14,6 +25,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin: 0;
   }
   .team {
   background-color: #e5e5e5;
@@ -182,7 +194,6 @@ letter-spacing: 0.06em;
   font-weight: 500;
 }
 
-.site-nav
 
 
 /* team section */
@@ -199,7 +210,7 @@ text-align: center;
   text-align: center;
  }
 
-address {
+.address {
   font-style: inherit;
 }
 
@@ -214,4 +225,9 @@ letter-spacing: 0.06em;
 .portfolio p{
 font-size: 16px;
 line-height: 1.9;
+}
+
+
+.projects-list .item:nth-last-child(n+7) {
+    margin-bottom: 0;
 }
